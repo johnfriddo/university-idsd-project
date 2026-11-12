@@ -1,0 +1,67 @@
+# --- Course material (not redistributable) ---
+Slide/
+
+# --- Local runtime data (H2 database files) ---
+data/
+
+# --- Maven / Java ---
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# --- Spring Boot / H2 file database ---
+*.mv.db
+*.trace.db
+*.lock.db
+
+# --- Secrets and local configuration ---
+.env
+.env.*
+!.env.example
+*.env
+application-local.properties
+application-local.yml
+application-local.yaml
+secrets/
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+
+# --- Node.js / Hardhat ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+ignition/deployments/chain-31337/
+
+# --- IDEs ---
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.project
+.classpath
+.settings/
+.factorypath
+bin/
+out/
+nbproject/
+.nb-gradle/
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Icon?
